@@ -33,22 +33,20 @@ module.exports = {
         //   contentTypes : `jobs`, `projects`, `blogs`,
         //   singleType : `about`
         //  ONLY ADD TO ARRAY IF YOU HAVE DATA IN STRAPI !!!!
-        contentTypes: [`jobs`, `projects`],
-        singleTypes: [],
+        contentTypes: [`jobs`, `projects`, `blogs`],
+        singleTypes: [`about`],
       },
     },
     // {
-    //   resolve: `gatsby-plugin-webfonts`,
+    //   resolve: `gatsby-plugin-prefetch-google-fonts`,
     //   options: {
-    //     fonts: {
-    //       google: [
-    //         {
-    //           family: "Roboto",
-    //           variants: ["400", "700"],
-    //         },
-    //         { family: "Open Sans" },
-    //       ],
-    //     },
+    //     fonts: [
+    //       {
+    //         family: "Roboto",
+    //         variants: ["400", "700"],
+    //       },
+    //       { family: "Open Sans" },
+    //     ],
     //   },
     // },
   ],
